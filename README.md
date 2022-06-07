@@ -27,6 +27,7 @@ os.system('pip install requests')
 os.system('pip install pyfiglet')
 os.system('pip install urllib3')
 os.system('pip install bs4')
+import urllib.request
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 

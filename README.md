@@ -57,7 +57,7 @@ try:
             print(B,'Type A for Scrap Title')
             print(B,'Type B for scrap Heading')
             print(B,'Type C for Scrap paragraph')
-            print(B.Type D for scrap All content')
+            print(B,'Type D for scrap All content')
             print(B,'Type E to quit this script')
 
             user = input("Enter Your Number:")

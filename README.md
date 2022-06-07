@@ -57,6 +57,7 @@ try:
             print(B,'Type A for Scrap Title')
             print(B,'Type B for scrap Heading')
             print(B,'Type C for Scrap paragraph')
+            print(B.Type D for scrap All content')
             print(B,'Type E to quit this script')
 
             user = input("Enter Your Number:")
@@ -66,6 +67,11 @@ try:
                 print(Y,(bs.h1))
             if user.upper() == 'C':
                 print(Y,(bs.p))
+            if user.upper() == 'D':
+                def dd(url):
+                    return urllib.request.urlopen(url).read()
+                scrapall = dd(userurl)
+                print(scrapall)
             if user.upper() == "E":
                 print('We Are Quitting Our Script')
                 print('Thank You For using CodeAx1 Script')

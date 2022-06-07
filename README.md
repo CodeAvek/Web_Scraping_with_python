@@ -22,7 +22,7 @@ small and simple project here..
 To deploy this project run
 
 ```bash
-  import os
+import os
 os.system('pip install requests')
 os.system('pip install pyfiglet')
 os.system('pip install urllib3')

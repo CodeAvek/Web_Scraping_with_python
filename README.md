@@ -23,6 +23,7 @@ To deploy this project run
 
 ```bash
 import os
+from re import A
 os.system('pip install requests')
 os.system('pip install pyfiglet')
 os.system('pip install urllib3')
@@ -44,11 +45,11 @@ n = 0
 br = pyfiglet.figlet_format("CodeAx1")
 print(R+br)
 print(G+'''
-[Scraping Content From Website ]
+[Scrap Your Content From Website ]
 Coded By CodeAx1
 _________________________________________________''')
 try:
-    userurl = input('Enter Your valid url :')
+    userurl = input('Enter Your valid full url like http://www.:')
     url = urlopen(userurl)
     bs = BeautifulSoup(url.read(), 'html.parser')
         
@@ -63,24 +64,31 @@ try:
 
             user = input("Enter Your Number:")
             if user.upper() == 'A':
+                print(G,'You selected A For Scarping Title')
                 print(Y,(bs.title))
             if user.upper() == 'B':
+                print(G,'You selected B For Scarping Heading')
                 print(Y,(bs.h1))
             if user.upper() == 'C':
+                print(G,'You selected C For Scarping Paragraph')
                 print(Y,(bs.p))
             if user.upper() == 'D':
                 def dd(url):
                     return urllib.request.urlopen(url).read()
                 scrapall = dd(userurl)
-                print(scrapall)
+                print(G,'You selected D For Scarping All Content')
+                print(Y,(scrapall))
             if user.upper() == "E":
-                print('We Are Quitting Our Script')
-                print('Thank You For using CodeAx1 Script')
+                print(G,'You selected E For Exitting this script...By CodeAx1')
+                print(Y,'We Are Quitting Our Script')
+                print(Y,'Thank You For using CodeAx1 Script')
                 break
         except:
             print('Somthing Wromg or wott?')
 except:
     print('SomeThing Wromg')
+
+
 
 
 ```

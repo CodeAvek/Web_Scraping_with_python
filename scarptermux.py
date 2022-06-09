@@ -25,12 +25,12 @@ try:
     
     while True:
         try:
-            print(B,'Type A for Scrap Title')
+            print(B,'Type A for Scrap All content')
             print(B,'Type Q to exit this code')
 
             user = input("Enter Your Number:")
             if user.upper() == 'A':
-                print(url.read())
+                print(Y,(url.read()))
 
                 print('We Are Quitting Our Script')
                 print('Thank You For using CodeAx1 Script')

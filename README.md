@@ -93,3 +93,25 @@ except:
 
 ```
 
+## Deployment
+
+To deploy this On Window Or Termux
+copy and paste
+
+```bash
+  apt update && apt upgrade
+```
+```bash
+  https://github.com/CodeAvek/Web_Scraping_with_python.git
+```
+```bash
+  ls
+```
+Now For Window Paste
+```bash
+python scarp.py
+```
+For Termux Paste
+```bash
+scarptermux.py
+```

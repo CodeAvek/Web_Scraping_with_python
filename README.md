@@ -116,4 +116,7 @@ For Termux Paste
 scarptermux.py
 ```
 
-![image alt text](https://i.ytimg.com/an_webp/H5yZbEZlY0c/mqdefault_6s.webp?du=3000&sqp=CP6GmJUG&rs=AOn4CLDoHf8QOiQFM1oX2_hgMrvCMPbHTg)
+## 🔗 Youtube Link
+
+[![Youtube](https://i.ytimg.com/an_webp/uvLpcxtDBTs/mqdefault_6s.webp?du=3000&sqp=COCqmJUG&rs=AOn4CLDIMLwUwogks5YAjQfDy2m8PnaMQw)](https://www.youtube.com/watch?v=uvLpcxtDBTs)
+

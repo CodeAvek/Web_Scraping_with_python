@@ -115,4 +115,5 @@ For Termux Paste
 ```bash
 scarptermux.py
 ```
-[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=StTqXEQ2l-Y)](https://youtu.be/3ADGRll9Y8k"Everything Is AWESOME")
+
+![image alt text](https://i.ytimg.com/an_webp/H5yZbEZlY0c/mqdefault_6s.webp?du=3000&sqp=CP6GmJUG&rs=AOn4CLDoHf8QOiQFM1oX2_hgMrvCMPbHTg)

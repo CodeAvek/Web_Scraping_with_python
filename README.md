@@ -115,5 +115,4 @@ For Termux Paste
 ```bash
 scarptermux.py
 ```
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3ADGRll9Y8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=StTqXEQ2l-Y)](https://youtu.be/3ADGRll9Y8k"Everything Is AWESOME")

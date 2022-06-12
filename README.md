@@ -115,3 +115,4 @@ For Termux Paste
 ```bash
 scarptermux.py
 ```
+##And Boom You Are Ready To Go
